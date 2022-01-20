@@ -16,5 +16,5 @@ Questionset
 |9|showFeedback|Option to show feedback to the student|date|No|Master Codes|showFeedback codes||
 |10|maxAttempts|Number of attempted allowed by the student|int|No|Filled|-||
 |11|blueprintId|ID of the blueprint the set is tagged to|str|No|Foreign Key|-|Would state assessment always be connected by a blueprint or no?|
-|12|questionId[]|Array of question ids mapped to this question set|str|No|Foreign Key|-||
+|12|questionId|Array of question ids mapped to this question set|str|No|Foreign Key|-||
 |13|assessmentId|Array of assessment ids mapped to this question set|str|No|Foreign Key|-||

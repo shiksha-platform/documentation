@@ -13,5 +13,5 @@ Smcmembers
 |6|gender|Gender of the SMC member|str|Yes|Filled|-||
 |7|schoolId|School of the SMC member|int|Yes|Filled|-||
 |8|studentId|ID of the student related to the SMC member|int|No|Filled|-||
-|9|relationtostudent|Relation of the SMC member to the aobve mentioned student |str|No|Master Codes|Relationship Codes||
-|10|dateofappointment|Date of appointment of the SMC member|date|Yes|Filled|-||
+|9|studentRelation|Relation of the SMC member to the aobve mentioned student |str|No|Master Codes|Relationship Codes||
+|10|appointmentDate|Date of appointment of the SMC member|date|Yes|Filled|-||
