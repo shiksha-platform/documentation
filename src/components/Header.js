@@ -10,6 +10,7 @@ import LoadingProvider from './mdxComponents/loading';
 
 const help = require('./images/help.svg');
 const isSearchEnabled = config.header.search && config.header.search.enabled ? true : false;
+const logoImg = require('./images/logo.png');
 
 let searchIndices = [];
 if (isSearchEnabled && config.header.search.indexName) {
@@ -58,7 +59,6 @@ const Header = ({ location }) => (
         }
         `}
     render={(data) => {
-      const logoImg = require('./images/beckn-logo.png');
       const twitter = require('./images/twitter.svg');
       const {
         site: {
@@ -80,7 +80,7 @@ const Header = ({ location }) => (
               <Link to={finalLogoLink} className={'navBarBrand'}>
                 <img
                   className={'img-responsive displayInline'}
-                  src={"https://beckn.org/wp-content/uploads/2020/04/beckn-for-devs.png"}
+                  src={logoImg}
                   alt={'logo'}
                 />
               </Link>

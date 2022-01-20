@@ -5,7 +5,7 @@ Content
 
 |**#**|**Field**|**Description**|**Type**|**Mandatory**|**Source Type**|**Source overview**|**Comments**|
 |---------|---------|--------|--------|--------|--------|--------|---------------|
-|1|Id|Unique ID of the content object|int|Yes|Auto generated|-||
+|1|id|Unique ID of the content object|int|Yes|Auto generated|-||
 |2|name|Name of the content object|str|Yes|Filled|-||
 |3|description|Description of the content object|str|Yes|Filled|-||
 |4|type|Type of content such as video, worksheet, lesson plan etc.|str|Yes|Master Codes|Content Type Codes||

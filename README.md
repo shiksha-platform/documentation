@@ -1,1 +1,1 @@
-This is the source repository for the Beckn Developer documentation.
+This is the source repository for the shiksha Developer documentation.

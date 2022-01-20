@@ -7,7 +7,7 @@ Mentor profile
 |---------|---------|--------|--------|--------|--------|--------|---------------|
 |1|mentorId|Unique ID given to mentors |int|Yes|Auto generated|-|Haryana specific options: ABRC/BRP|
 |2|designation|Designation of the mentor|str|Yes|Master Codes|Designation Codes|Options: Hindi, English, Math, Science, SST, None|
-|3|subjecttermid|Subject specialisation of the mentor|str|Yes|Master Codes|Term mapped to Subject Category||
+|3|subjectTermId|Subject specialisation of the mentor|str|Yes|Master Codes|Term mapped to Subject Category||
 |4|district|District of the mentor|str|Yes|Master Codes|Location Codes||
 |5|block|Block of the mentor|str|Yes|Master Codes|Location Codes|Options: Head School Name, None|
 |6|cluster|Cluster of the mentor|str|Yes|Master Codes|Location Codes|String of multiple school codes|

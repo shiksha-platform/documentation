@@ -18,7 +18,7 @@ Teacher
 |11|cadre|Cadre of the teacher|char|Yes|Master Codes|Cadre codes|JBT, TGT, C&V, PGT are examples of the cadres|
 |12|profQualification|Professional qualification of the teacher |char|No|Master Codes|Qualification codes||
 |13|joiningDate|Date of joining the state education department|date|No|Filled|-|What will the joining date for contract teachers be?|
-|14|subjecttermid|The array of subjects that the teacher is expected to teach in the classes|str|Yes|Master data|Term mapped to Subject Category||
+|14|subjectTermId|The array of subjects that the teacher is expected to teach in the classes|str|Yes|Master data|Term mapped to Subject Category||
 |15|bloodGroup|Blood group of the teacher|char|No|Master Codes|Blood Group Codes||
 |16|maritalStatus|Marital status of the teacher|char|No|Master Codes|Marital Status Codes||
 |17|blockId|Block ID of the residence of the teacher|str|No|Master Codes|Location Codes||

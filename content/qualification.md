@@ -5,7 +5,7 @@ Qualification
 
 |**#**|**Field**|**Description**|**Type**|**Mandatory**|**Source Type**|**Source overview**|**Comments**|
 |---------|---------|--------|--------|--------|--------|--------|---------------|
-|1|Id|Primary ID of the Qualification detail|int|Yes|Auto generated|-||
+|1|id|Primary ID of the Qualification detail|int|Yes|Auto generated|-||
 |2|teacherId|ID of the teacher for which qualification is stored|int|Yes|Foreign Key|-||
 |3|level|Level of the Qualification (Matriculation, Graduation, Under Graduation)|str|Yes|Master Codes|Qual Level Codes||
 |4|percentage|Percentage achieved by teacher during this qualification|double|Yes|Filled|-||
