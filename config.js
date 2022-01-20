@@ -1,23 +1,22 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/",
-		"siteUrl": "https://developers.beckn.org",
+		"siteUrl": "http://shikshaplatform.io/",
 		"gaTrackingId": null
 	},
 	"header": {
 		"logo": "",
-		"logoLink": "http://developers.beckn.org",
-		"title": "Beckn for Developers",
-		"githubUrl": "https://github.com/beckn/protocol-specifications",
+		"logoLink": "http://shikshaplatform.io",
+		"title": "Shiksha for Developers",
+		"githubUrl": "https://github.com/shiksha-platform",
 		"helpUrl": "",
 		"tweetText": "",
 		"links": [
-			{ "text": "beckn home", "link": "https://beckn.org" },
-			{ "text": "github", "link": "https://github.com/beckn/protocol-specifications" }
+			{ "text": "Github", "link": "https://github.com/shiksha-platform" }
 		],
 		"search": {
 			"enabled": false,
-			"indexName": "DEV_BECKN",
+			"indexName": "DEV_shiksha",
 			"algoliaAppId": "2Y9CZOBKNK",
 			"algoliaSearchKey": "5c64c21b906ecb2f6ab59b78f119586a",
 			"algoliaAdminKey": "4c10dd346708cec47e67cedbb2601eee"
@@ -33,17 +32,17 @@ const config = {
 			"Mobility"
 		],
 		"links": [
-			{ "text": "Code of sharing", "link": "https://beckn.org/code-of-sharing/" },
+			{ "text": "Code of sharing", "link": "http://shikshaplatform.io//code-of-sharing/" },
 		],
 		"frontline": false,
 		"ignoreIndex": false,
 	},
 	"siteMetadata": {
-		"title": "Beckn for Developers",
-		"description": "Documentation for developers of the Beckn Ecosystem",
+		"title": "shiksha for Developers",
+		"description": "Documentation for developers of the Shiksha Ecosystem",
 		"ogImage": null,
-		"docsLocation": "https://github.com/beckn/developer-docs/tree/master/content",
-		"favicon": "https://beckn.org/wp-content/uploads/2020/04/beckn-marker.png",
+		"docsLocation": "https://github.com/shiksha-platform",
+		"favicon": "https://github.com/shiksha-platform/shiksha-marker.png",
 		"logo" : ""
 	},
 };

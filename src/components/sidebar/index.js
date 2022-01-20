@@ -66,14 +66,12 @@ const Sidebar = styled('aside')`
     /* position: relative; */
     height: 100vh;
   }
-  @media (min-width: 767px) and (max-width:1023px)
-  {
+  @media (min-width: 767px) and (max-width: 1023px) {
     padding-left: 0;
   }
   @media only screen and (max-width: 767px) {
-    padding-left: 0px;
-    background-color: #372476;
-    background: #372476;
+    padding-left: 0;
+    background: #ffffff;
     height: auto;
   },
 `;

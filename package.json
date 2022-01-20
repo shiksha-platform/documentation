@@ -2,7 +2,7 @@
   "name": "gatsby-gitbook-boilerplate",
   "private": true,
   "description": "Documentation, built with mdx",
-  "author": "Praveen <praveen@hasura.io> (@praveenweb)",
+  "author": "",
   "version": "0.0.1",
   "dependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
@@ -56,8 +56,7 @@
   "main": "n/a",
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build --prefix-paths",
-    "deploy": "cp ./src/CNAME public/ && cp ./src/README.md public/ && gh-pages -d public -r https://$GH_TOKEN@github.com/beckn-dev/beckn.github.io.git -b master"
+    "build": "gatsby build --prefix-paths"
   },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.3.0",

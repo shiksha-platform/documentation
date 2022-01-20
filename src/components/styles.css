@@ -35,7 +35,6 @@ html, body {
     "Segoe UI Symbol";
 
   font-size: 16px;
-  background-image: url("https://beckn.org/wp-content/uploads/2020/04/beckn-grid-03.png");
 }
 
 a {
@@ -66,7 +65,7 @@ a:hover {
   display: inline-block;
 }
 .navBarToggle {
-  border: 1px solid #fff;
+  border: 1px solid #000000;
   border-radius: 4px;
   width: 36px;
   height: 33px;
@@ -80,9 +79,8 @@ a:hover {
   width: 22px;
   height: 2px;
   border-radius: 1px;
-  margin: 0 auto;
-  margin-top: 4px;
-  background-color: #fff;
+  margin: 4px auto 0;
+  background-color: #000000;
 }
 .navBarToggle .iconBar:first-child {
   margin-top: 0px;
@@ -283,7 +281,7 @@ a:hover {
 }
 
 .navBarBrand img {
-  width: 220px;
+  width: 100px;
   margin-right: 16px;
   display: inline-block;
 }
